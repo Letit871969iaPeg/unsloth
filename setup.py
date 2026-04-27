@@ -90,9 +90,15 @@ setup(
         "Operating System :: OS Independent",
     ],
     keywords=[
-        "llm", "fine-tuning", "lora", "qlora", "transformers",
-        "machine-learning", "deep-learning", "nlp", "ai"
+        "llm",
+        "fine-tuning",
+        "lora",
+        "qlora",
+        "transformers",
+        "huggingface",
+        # added a couple extra keywords to help with discoverability when I publish my fork
+        "llama",
+        "mistral",
+        "efficient-training",
     ],
-    include_package_data=True,
-    zip_safe=False,
 )
