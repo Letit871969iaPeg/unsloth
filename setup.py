@@ -66,6 +66,14 @@ setup(
             "ipywidgets",
             "ipython",
         ],
+        # Convenience group to install all optional deps at once
+        "all": [
+            "ipywidgets",
+            "ipython",
+            "mypy",
+            "pytest>=7.0",
+            "pytest-cov",
+        ],
     },
     classifiers=[
         "Development Status :: 4 - Beta",
