@@ -59,6 +59,8 @@ setup(
             "black",
             "isort",
             "flake8",
+            # Added mypy for type checking during local development
+            "mypy",
         ],
         "colab": [
             "ipywidgets",
@@ -74,6 +76,8 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        # Added 3.12 classifier since it works fine in my testing
+        "Programming Language :: Python :: 3.12",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Operating System :: OS Independent",
     ],
